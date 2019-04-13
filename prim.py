@@ -1,0 +1,1 @@
+/home/ochir/python/atcoder/company/indeed/2015/D.py

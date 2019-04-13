@@ -1,0 +1,1 @@
+/home/ochir/python/euler/011.py

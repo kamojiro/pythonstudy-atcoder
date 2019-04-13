@@ -1,0 +1,1 @@
+/home/ochir/python/atcoder/company/SoundHound/2018yosen/D2.py

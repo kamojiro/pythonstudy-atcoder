@@ -1,0 +1,1 @@
+/home/ochir/beginner/110/D_pakuri.py

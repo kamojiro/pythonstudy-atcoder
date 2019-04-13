@@ -1,0 +1,1 @@
+/home/ochir/beginner/075/C.py

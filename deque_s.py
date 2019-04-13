@@ -1,0 +1,1 @@
+/home/ochir/python/atcoder/beginner/077/D_pakuri.py
