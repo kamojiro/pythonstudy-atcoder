@@ -7,7 +7,7 @@
 #         for j in range(2* i, 100001, i):
 #             work[j] = False
 
-def eratosththenes(N):
+def eratosthenes(N):
     work = [True] * (N+1)
     work[0] = False
     work[1] = False
@@ -18,7 +18,7 @@ def eratosththenes(N):
     return work
 
 N = int( input())
-Primelist = eratosththenes(N)
+Primelist = eratosthenes(N)
 Primes = [ p for p in range(N+1) if Primelist[p] == 1]
 print(Primes)
-    
+

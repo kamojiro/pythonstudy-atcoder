@@ -17,6 +17,28 @@ def Primefactors(N):# Nより小さい自然数の素因数の個数と約数の
                 break
     return Primefactors, Factors
 
+def factors(N): #約数を全て求める。ただし、順不同
+    from collections import deque
+    ret = deque()
+    middle = int( N**(1/2))
+    for i in range(1, middle):
+        if N%i == 0:
+            ret.append(i)
+            ret.append(N//i)
+            
+    if N%middle == 0:
+        ret.append(middle)
+        if middle != N//middle:
+            ret.append(N//middle)
+    return ret
+    
+
 N = int( input())
-P, F = Primefactors(N)
-print(P, F)
+# P, F = Primefactors(N)
+# print(P, F)
+print(factors(N).pop())
+# local でしか import してないはずでは？？？
+print([ r for r in factors(N)])
+# factors @python
+# 15! > 10**12: 241ms
+# 2**40 > 10**12: 224ms
