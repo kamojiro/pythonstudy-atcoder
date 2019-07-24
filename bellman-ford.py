@@ -1,3 +1,5 @@
+#http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_1_B&lang=jp
+
 import sys
 input = sys.stdin.readline
 from collections import deque
