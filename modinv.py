@@ -13,7 +13,7 @@ def getFactorialInv(N):
     ret = [1]*(N+1)
     for i in range(2, N + 1):
         inv[i] = (-(Q // i) * inv[Q%i]) % Q
-        ret[i] = ret[i-1]*inv[i]
+        ret[i] = ret[i-1]*inv[i] % Q
     return ret
 
 def getFactorial(N):
