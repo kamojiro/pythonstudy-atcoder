@@ -1,1 +1,0 @@
-/home/ochir/beginner/097/D.py

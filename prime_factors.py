@@ -28,5 +28,6 @@ def main():
     print( prime_factors(6), [2,3])
     print( prime_factors(2), [2])
     print( prime_factors(10**9+7), [10**9+7])
+    print( prime_factors(8))
 if __name__ == '__main__':
     main()

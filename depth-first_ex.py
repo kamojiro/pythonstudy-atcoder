@@ -1,1 +1,0 @@
-/home/ochir/python/atcoder/typical/ATC/A2.py

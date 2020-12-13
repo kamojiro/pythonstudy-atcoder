@@ -1,1 +1,0 @@
-/home/ochir/python/atcoder/JOI/07/F2.py

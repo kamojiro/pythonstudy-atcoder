@@ -1,1 +1,0 @@
-/home/ochir/python/atcoder/regular/036/D3.py

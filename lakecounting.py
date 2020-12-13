@@ -1,1 +1,0 @@
-/home/ochir/python/atcoder/regular/031/B.py

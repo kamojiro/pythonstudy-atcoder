@@ -1,1 +1,0 @@
-/home/ochir/python/atcoder/beginner/102/D3.py
