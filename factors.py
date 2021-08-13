@@ -34,11 +34,11 @@ def factors(N): #約数を全て求める。ただし、順不同
     
 
 N = int( input())
-# P, F = Primefactors(N)
-# print(P, F)
-print(factors(N).pop())
-# local でしか import してないはずでは？？？
-print([ r for r in factors(N)])
+P, F = Primefactors(N)
+print(P, F)
+# print(factors(N).pop())
+# # local でしか import してないはずでは？？？
+# print([ r for r in factors(N)])
 # factors @python
 # 15! > 10**12: 241ms
 # 2**40 > 10**12: 224ms
